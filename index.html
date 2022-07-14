@@ -3,9 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
-        
+        <link rel="stylesheet" href="style.css"> 
+        <script src="code.js" defer></script>      
     </head>
-    <body>        
-        <script src="code.js"></script>
+    <body>
+        <div class="header">
+            <img class="head_img" src="./images/rock-paper-scissors.svg">
+            <h1 class="head_title">Choose your destiny</h1>
+        </div>
+        <div class="buttons">
+            <button id="rock" >Rock</button>
+            <button id="paper" >Paper</button>
+            <button id="scissors" >Scissors</button>
+        </div>
+        <div class="messages">
+            <p id="winlose">...</p>
+            <h1>Score:</h1>
+            <div class="score_window">
+                <p id="cscore">Computer:</p>
+                <p id="pscore">Player:</p> 
+            </div>            
+        </div>     
     </body>
 </html>
